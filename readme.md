@@ -18,7 +18,7 @@ $ npm install
 
 ```
 $ npm run build   Build the bundle
-$ npm run watch   Build the bundle and watch for modification
+$ npm run watch   Build the bundle and watch for modification (only if you want to modify stuffs)
 $ npm start       Start the server (port 8080)
 ```
 
