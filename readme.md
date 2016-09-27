@@ -26,4 +26,4 @@ Then open http://localhost:8080/ in your browser
 
 ## Thanks
 
-Graphs inspired by ![Abhisek Jana](http://www.adeveloperdiary.com/react-js/integrate-react-and-d3/)
+Graphs inspired by ![Abhisek Jana](http://www.adeveloperdiary.com/d3-js/how-to-integrate-react-d3-the-right-way/)
