@@ -24,7 +24,7 @@ function renderFullPage() {
     <!doctype html>
     <html>
       <head>
-        <title>Spectator</title>
+        <title>React-Redux-D3</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/styles.css">
