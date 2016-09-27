@@ -3,8 +3,8 @@ import React from 'react'
 
 import Grid from './Grid'
 import Axis from './Axis'
-import Dots from '../../presentationals/d3/Dots'
-import Tooltip from '../../presentationals/d3/Tooltip'
+import Dots from './Dots'
+import Tooltip from './Tooltip'
 
 class Sparkline extends React.Component {
   constructor() {

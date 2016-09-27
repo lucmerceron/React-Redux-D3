@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 import React from 'react'
 
-import InsetShadow from '../../presentationals/d3/InsetShadow'
+import InsetShadow from './InsetShadow'
 
 class ProgressChart extends React.Component {
   constructor() {
