@@ -11,7 +11,7 @@ const TopBar = ({ handleRefresh }) => (
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav pullRight>
-        <NavItem eventKey={1} href="#" onClick={() => handleRefresh()}>
+        <NavItem eventKey={1} href="#" onClick={handleRefresh}>
           <img alt="refresh" className="refresh" src="/images/refresh.svg"/>
         </NavItem>
       </Nav>
