@@ -1,6 +1,6 @@
 ## Introduction
 
-A simple example on how D3 can be use with a classic React web application stack (React Router, Redux, webpack).
+A simple example on how D3 can be used with a classic React web application stack (React Router, Redux, webpack).
 
 ## Features
 
