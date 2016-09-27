@@ -2,9 +2,9 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import DonutChart from '../presentationals/d3/DonutChart'
-import Sparkline from '../containers/d3/Sparkline'
-import ProgressChart from '../containers/d3/ProgressChart'
-import BarChart from '../containers/d3/BarChart'
+import Sparkline from '../presentationals/d3/Sparkline'
+import ProgressChart from '../presentationals/d3/ProgressChart'
+import BarChart from '../presentationals/d3/BarChart'
 
 class DashboardZero extends React.Component {
   constructor() {

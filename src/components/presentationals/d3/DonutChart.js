@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 import React from 'react'
 
-import DonutChartPath from '../../containers/d3/DonutChartPath'
+import DonutChartPath from './DonutChartPath'
 import DonutChartLegend from './DonutChartLegend'
 
 const DonutChart = ({ chartId, width, height, data }) => {
