@@ -1,7 +1,7 @@
 ## Introduction
 
 A simple example on how D3 can be used with a classic React web application stack (React Router, Redux, webpack).
-[Demonstration](https://lucmerceron.github.io/) - New versions of Chrome not supported
+[Demonstration](https://lucmerceron.github.io/)
 
 ## Features
 
