@@ -22,7 +22,7 @@ $ npm run watch   Build the bundle and watch for modification
 $ npm start       Start the server (port 8080)
 ```
 
-Then open http://localhost:8080/ in your browser
+Then open <http://localhost:8080/> in your browser
 
 ## Thanks
 
