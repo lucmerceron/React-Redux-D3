@@ -8,12 +8,12 @@ import TopBar from '../presentationals/TopBar'
 
 class Home extends React.Component {
   render() {
-    const { dispatch, children, routing } = this.props
+    const { children, routing, handleRefresh } = this.props
 
     return (
       <div>
         <div className="top-bar">
-          <TopBar handleRefresh={() => dispatch(generateRandomData())}/>
+          <TopBar handleRefresh={handleRefresh}/>
         </div>
         <div className="left-bar">
           <div className="fixed-left-bar">
@@ -29,13 +29,18 @@ class Home extends React.Component {
 }
 
 Home.propTypes = {
-  dispatch: React.PropTypes.func.isRequired,
   data: React.PropTypes.object.isRequired,
   routing: React.PropTypes.object.isRequired,
+  handleRefresh: React.PropTypes.func.isRequired,
   children: React.PropTypes.node
 }
 
-export default connect(state => ({
-  data: state.data,
-  routing: state.routing
-}))(Home)
+export default connect(
+  state => ({
+    data: state.data,
+    routing: state.routing
+  }),
+  dispatch => ({
+    handleRefresh: () => dispatch(generateRandomData())
+  })
+)(Home)
