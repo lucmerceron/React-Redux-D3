@@ -3,7 +3,7 @@
 let express = require('express'),
   path = require('path'),
   packageJson = require('./package.json'),
-  port = 80,
+  port = 8080,
   app = new express()
 
 /* Configuration */
